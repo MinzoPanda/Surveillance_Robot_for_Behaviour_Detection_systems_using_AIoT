@@ -6,8 +6,8 @@ from ultralytics import YOLO
 # --- 1. CONFIG & PATHS ---
 MODEL_PATH = 'yolov8n-pose.pt'
 BLYNK_AUTH = 'aoaEO3E5PLfZlZz1AUOMWk7-BcnCVBH2'
-TELEGRAM_TOKEN = '8164442789:AAF7YyAoHUiaacxXzzVeRCsS10ZU-gwYFQc'
-TELEGRAM_CHAT_ID = '480055363'
+TELEGRAM_TOKEN = 'your telegram token'
+TELEGRAM_CHAT_ID = 'your telegram chat id'
 
 # --- 2. PREDICTIVE BUFFERS ---
 movement_history = deque(maxlen=8)
