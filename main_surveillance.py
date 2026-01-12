@@ -18,8 +18,8 @@ if not os.path.exists(DATA_DIR):
 
 # --- 2. CONFIGURATION & CREDENTIALS ---
 BLYNK_AUTH = 'aoaEO3E5PLfZlZz1AUOMWk7-BcnCVBH2'
-TELEGRAM_TOKEN = '8164442789:AAF7YyAoHUiaacxXzzVeRCsS10ZU-gwYFQc'
-TELEGRAM_CHAT_ID = '480055363'
+TELEGRAM_TOKEN = 'Your telegram token'
+TELEGRAM_CHAT_ID = 'Your telegram id'
 
 # --- 3. INITIALIZATION ---
 blynk = BlynkLib.Blynk(BLYNK_AUTH, server='blynk.cloud')
